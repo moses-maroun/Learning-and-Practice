@@ -1,0 +1,6 @@
+Apple 20
+Nuts 30
+Banana 5
+Orange 10
+Milk 2
+Potato 7
