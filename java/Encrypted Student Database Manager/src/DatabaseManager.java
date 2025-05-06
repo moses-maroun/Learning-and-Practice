@@ -3,9 +3,9 @@ import java.io.*;
 
 public class DatabaseManager{
       public static void main(String[] args) throws IOException {
-            Scanner scan = new Scanner(new File("encrypted_students.txt"));
-            Scanner sc= new Scanner(new File("students.txt"));
-            FileWriter fw= new FileWriter(new File("encrypted_students.txt"));
+            Scanner scan = new Scanner(new File("../encrypted_students.txt"));
+            Scanner sc= new Scanner(new File("../students.txt"));
+            FileWriter fw= new FileWriter(new File("../encrypted_students.txt"));
             PrintWriter pw= new PrintWriter(fw);
             ArrayList<Student> stu= new ArrayList<>();
             System.out.println("Loading student data from file...\n");

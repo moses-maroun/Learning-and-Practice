@@ -10,8 +10,8 @@ public class GroceryShop {
     }
     
     
-    public ArrayList<GroceryItem> readCustomerShoppingList() throws FileNotFoundException{
-        Scanner scan = new Scanner(new File("ShoppingList.txt"));
+    public ArrayList<GroceryItem> readCustomerShoppingList() throws FileNotFoundException {
+        Scanner scan = new Scanner(new File("../ShoppingList.txt"));
         
         while (scan.hasNextLine()) {
               String name = scan.next();             

@@ -3,7 +3,7 @@ import java.io.*;
 import java.text.*;
 public class SmartLogger{
       public static void main(String[] args) throws IOException {
-         Scanner scan1= new Scanner(new File("sensor_log.txt"));
+         Scanner scan1= new Scanner(new File("../sensor_log.txt"));
          Scanner scan2= new Scanner(System.in);
          ArrayList<SensorReading> arr= new ArrayList<>();
          
@@ -49,7 +49,7 @@ public class SmartLogger{
              break;
            }
            else if(o==1){
-               FileWriter fw= new FileWriter(new File("sensor_log.txt"), true);
+               FileWriter fw= new FileWriter(new File("../sensor_log.txt"), true);
                PrintWriter pw= new PrintWriter(fw);
                Scanner scan3= new Scanner(System.in);
                System.out.print("Enter the infos in the following format(type value): ");

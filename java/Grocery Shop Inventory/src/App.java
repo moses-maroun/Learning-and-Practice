@@ -20,7 +20,7 @@ public class App {
         }
         else if(n==2) {
             System.out.println("Generating receipt...");
-            shop.generateReceipt("Receipt.txt");
+            shop.generateReceipt("../Receipt.txt");
         }
         else if(n==3) {
             System.out.println("Come Back!!\nExiting...");

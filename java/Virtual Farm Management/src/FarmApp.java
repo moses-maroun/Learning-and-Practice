@@ -3,7 +3,7 @@ import java.io.*;
 public class FarmApp{
    public static void main(String[] args) throws IOException {
       Scanner scan= new Scanner(System.in);
-      FileWriter fw= new FileWriter(new File("Map.txt"));
+      FileWriter fw= new FileWriter(new File("../Map.txt"));
       PrintWriter pw= new PrintWriter(fw);
       Crop[][] crp1={{new Crop("food"), new Crop("food"), new Crop("feed"),new Crop("food")},
                      {new Crop("feed"), new Crop("food"), new Crop("food"), new Crop("food")},

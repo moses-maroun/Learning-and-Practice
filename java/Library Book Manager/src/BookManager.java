@@ -2,8 +2,8 @@ import java.util.*;
 import java.io.*;
 public class BookManager{
       public static void main(String[] args) throws IOException {
-            Scanner scan= new Scanner(new File("library.txt"));
-            FileWriter fw= new FileWriter(new File("encrypted_books.txt"));
+            Scanner scan= new Scanner(new File("../library.txt"));
+            FileWriter fw= new FileWriter(new File("../encrypted_books.txt"));
             PrintWriter pw= new PrintWriter(fw);
             ArrayList<book> lib= new ArrayList<>();
             while(scan.hasNextLine()){
